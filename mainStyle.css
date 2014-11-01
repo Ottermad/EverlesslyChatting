@@ -26,7 +26,7 @@ body{
       font-size: 2em;
       padding-left: 10px;
     }
-p, #accountDisplayer, #messageInput, .message, #footer  {
+p, #accountDisplayer, .messageField, .message, #footer  {
   color: #545454;
   font-size: 1.5em;
   font-family: Roboto, sans-serif;
@@ -41,7 +41,7 @@ p, #accountDisplayer, #messageInput, .message, #footer  {
     #accountDisplayer {
       text-align: left;
     }
-    #signOut, #sendButton {
+    .button {
       color: #fafafa;
       background-color: #03a9f4;
       border-width: 0px;
@@ -55,15 +55,15 @@ p, #accountDisplayer, #messageInput, .message, #footer  {
       width: auto;
       height: 100%;
     }
-    #signOut:hover, #sendButton:hover{
+    .button{
       background-color: #0696cf;
     }
 #inputSection{
   margin: 10px;
   width: 100%;
 }
-#messageInput {
-  width: 90%;
+.messageField {
+  width: 45%;
   text-align: left;
   border-width: 0px;
   border-bottom-width: 2px;
