@@ -26,7 +26,7 @@ if (currentUser) {
       })
 
       function submitMessageToFireBase(){
-        var name = $('#nameInput').val().trim();
+        var name = currentUser.getUsername();
         var text = $('#messageInput').val().trim();
         isNameValid = isValidMsg(name);
         isMsgValid = isValidMsg(text);
