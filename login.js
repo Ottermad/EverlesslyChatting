@@ -4,6 +4,11 @@ $('#signUp').click(function(){
 	window.location.replace("http://653b029.ngrok.com/signup.html")
 });
 
+$('#resetPassword').click(function(){
+    //Some code
+	window.location.replace("http://653b029.ngrok.com/reset.html")
+});
+
 function processForm(e) {
     if (e.preventDefault) e.preventDefault();
 
