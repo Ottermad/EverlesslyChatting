@@ -1,8 +1,8 @@
 Parse.initialize("ea45aUA3Pwl5AFBGh95DFo6Su2UoQxxEuwNOe79r", "tBNPa5gcnvEpKS6VrQ9ZV3pytKMiPCoiwhAHKxBk");
-/*$('#signUp').click(function(){
+$('#signUp').click(function(){
     //Some code
 	window.location.replace("http://653b029.ngrok.com/signup.html")
-});*/
+});
 
 function processForm(e) {
     if (e.preventDefault) e.preventDefault();
