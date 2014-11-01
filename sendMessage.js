@@ -56,7 +56,7 @@ $('#sendButton').click(function(){
 					  success: function(message) {
 					    // Execute any logic that should take place after the object is saved.
 					    alert("Sent");
-					    $('.inputForMessage').val('');
+					    $('.messageField').val('');
 
 					  },
 					  error: function(message, error) {
