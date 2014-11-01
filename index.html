@@ -11,7 +11,7 @@
     <!--Stylesheets-->
     <link rel="stylesheet" type="text/css" href="mainStyle.css">
     <!--Google Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto|Comfortaa' rel='stylesheet' type='text/css'>
     <!--Meta-->
     <meta charset="utf-8">
   </head>
@@ -21,19 +21,23 @@
     <!--[if lte IE 8]>
     <script>
       alert("Your browser appears to be outdated, The chat will mostlikely not fully work \n
-      If you see this message however it does work email TODO: ADD SUPPORT EMAIL");
+      If you see this message however it does work email webmaster@tomperegrine.com ");
     </script>
     <![endif]-->
     <div id="Titlebox">
       <h1 id="Title">Welcome to Everlessly Chatting</h1>
       <h2 id="subTitle">A Realtime messenger</h2>
     </div>
+
+    <div id="accountDisplayer">
+      You are logged in as <span id="userNameDisplayer">Guest</span>
+      <button id="signOut">Sign Out</button>
+    </div>
     <div id="inputSection">
             <input type='text' id='messageInput' placeholder='Message' val="Hi">
             <button id="sendButton" >Send</button>
     </div>
     <div id="allMessagesBox">
-        
         <!--
         Here is an example message, this is the area where messages appear
         <div class="message">
@@ -41,12 +45,21 @@
           [Message Content]
         </div>
         -->
+        <div class="message">
+          <em class="userNameDisplayer">Admin: </em>
+          The quick brown fox jumped over the lazy dog.
+        </div>
+        <div class="message">
+          <em class="userNameDisplayer">Super Admin: </em>
+          A very simple test message
+        </div>
     </div>
 
     <div id="footer">
       This app is Open Source, meaning you can look at the source code, It's available <a target="_blank" href="https://github.com/EverlessDrop41/EverlesslyChatting">here</a>.
+      <br>
+      © <a href="www.tomperegrine.com">Tom Peregrine</a> and <a href="">Charlie Thomas</a>
     </div>
-    <button id="signOut">Sign Out</button>
     <!--Myscript-->
     <script src="signout.js"></script>
   </body>

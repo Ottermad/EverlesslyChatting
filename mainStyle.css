@@ -1,86 +1,98 @@
-/*Tag styling*/
-input {
-  background-color: #828282;
-  border-width: 0px;
-  border-radius: 10px;
-  padding-left: 5px;
-  font-weight: bold;
-  color: #dfdfdf;
+body{
+	background-color: #ededed;
+	padding:0px !important;
+	margin:0px !important;
 }
-body {
-  background-color: #151725;
-  font-size: 2em;
-}
-input, button  {
-  margin: 1%;
-  width: 30%;
-  font-size: 2em;
-}
-a:link{
-  color: #66c7ca;
-  text-decoration: none;
-}
-a:visited {
-  color: #66c7ca;
-  text-decoration: none;
-}
-a:hover {
-  color: #66c7ca;
-  text-decoration: none;
-}
-/*Class Section*/
-.message{
-  background-color: #828282;
-  border-width: 0px;
-  border-radius: 10px;
-  padding: 5px;
-  margin: 5px;
-  font-weight: bold;
-  color: #dfdfdf;
-  font-family: 'Lato', sans-serif;
-}
-/*The id section*/
 #Titlebox{
-  font-family: 'Oswold', sans-serif;
-  border-radius: 15px;
-  padding: 10px;
-  padding-left: 20px;
-  margin-bottom: 10px;
-  background-color: #343438;
-  color: #c1c1c1;
+  float: center;
+	margin: auto;
+	background-color: #03a9f4;
+  width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+  padding-left: 1em;
 }
-#allMessagesBox {
-  border-color: #454943;
-  background-color: #27272e;
-  border-width: 10px;
-  border-radius: 10px;
+    #Title {
+    	margin: 0px;
+    	font-family: Comfortaa,cursive;
+    	color: #fafafa;
+    	font-size: 4em;
+    	padding-left: 10px;
+    }
+    #subTitle{
+      margin: 0px;
+      font-family: Comfortaa,cursive;
+      color: #fafafa;
+      font-size: 2em;
+      padding-left: 10px;
+    }
+p, #accountDisplayer, #messageInput, .message, #footer  {
+  color: #545454;
+  font-size: 1.5em;
+  font-family: Roboto, sans-serif;
+  line-height: 1em;
+  text-align: center;
   padding: 10px;
 }
+#accountDisplayer {
+  margin: 10px;
+  width: 100%;
+}
+    #accountDisplayer {
+      text-align: left;
+    }
+    #signOut, #sendButton {
+      color: #fafafa;
+      background-color: #03a9f4;
+      border-width: 0px;
+      font-family: Roboto, sans-serif;
+      font-size: 1em;
+      padding: 20px;
+      margin-left: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 5px;
+      width: auto;
+      height: 100%;
+    }
+    #signOut:hover, #sendButton:hover{
+      background-color: #0696cf;
+    }
 #inputSection{
   margin: 10px;
-  padding: 10px;
-  padding-left: 15px;
-  border-color: #343733;
-  background-color: #454040;
-  border-width: 10px;
-  border-radius: 5px;
+  width: 100%;
+}
+#messageInput {
+  width: 90%;
+  text-align: left;
+  border-width: 0px;
+  border-bottom-width: 2px;
+  border-bottom-color: #1177ff;
+  background-color: #ededed;
+  font-size: 1.5em;
+  padding: 0px;
+  margin: 10px;
 }
 #sendButton{
-  border-width: 0px;
-  border-radius: 10px;
-  background-color: #828282;
-  color: #dfdfdf;
-  font-weight: bold;
+  font-size: 1.5em;
+}
+#allMessagesBox{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.message{
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #bdbdbd;
+  text-align: left;
 }
 #footer{
-  border-width: 0px;
-  border-radius: 10px;
-  background-color: #828282;
-  color: #dfdfdf;
-  font-weight: bold;
-  margin-top: 10px;
-  padding: 5px;
-  font-size: 0.5em;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+}
+#footer a {
+  color: #3c9cd3;
+  text-decoration: none;
+}
+#footer a:hover {
+  text-decoration: underline;
 }
