@@ -6,8 +6,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src='https://cdn.firebase.com/js/client/1.1.1/firebase.js'></script>
     <script src="//www.parsecdn.com/js/parse-1.3.1.min.js"></script>
-    <!--Myscript-->
-    <script src="mainSystem.js"></script>
     <!--Stylesheets-->
     <link rel="stylesheet" type="text/css" href="mainStyle.css">
     <!--Google Fonts-->
@@ -32,8 +30,10 @@
     <div id="accountDisplayer">
       You are logged in as <span id="userNameDisplayer">Guest</span>
       <button id="signOut">Sign Out</button>
+      <button id="refresh">Refresh</button>
     </div>
     <div id="inputSection">
+            <input type='text' id='recipient' placeholder='To' val="Hi">
             <input type='text' id='messageInput' placeholder='Message' val="Hi">
             <button id="sendButton" >Send</button>
     </div>
@@ -60,6 +60,9 @@
       <br>
       © <a href="www.tomperegrine.com">Tom Peregrine</a> and <a href="attwoodthomas.me">Charlie Thomas</a>
     </div>
+    <!--Messages-->
+    <script src="getMessages.js"></script>
+    <script src="sendMessage.js"></script>
     <!--SignOut-->
     <script src="name.js"></script>
     <!--SignOut-->
