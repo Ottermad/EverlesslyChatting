@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Everlessly Chatting</title>
+    <!--Imported APIs-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src='https://cdn.firebase.com/js/client/1.1.1/firebase.js'></script>
+    <script src="//www.parsecdn.com/js/parse-1.3.1.min.js"></script>
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="mainStyle.css">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
+    <!--Meta-->
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <!--I could remove the need for this, but IE users need to learn...-->
+    <!--[if lte IE 8]>
+    <script>
+      alert("Your browser appears to be outdated, The chat will mostlikely not fully work \n
+      If you see this message however it does work email TODO: ADD SUPPORT EMAIL");
+    </script>
+    <![endif]-->
+    <div id="Titlebox">
+      <h1 id="Title">Welcome to Everlessly Chatting</h1>
+      <h2 id="subTitle">A Realtime messenger</h2>
+    </div>
+
+   <h3>Sign Up Form</h3>
+        <form id="login">
+          <table class="email_form">
+
+            <tr>
+
+            <th>
+              <label for="username">Username:</label>
+            </th>
+
+            </tr>
+
+            <tr>  
+
+              <td>
+                <input type="text" id="username" name="username" placeholder="Username" />
+              </td>
+
+            </tr>
+
+
+            <tr>
+
+              <th>
+                <label for="password">Password:</label>
+              </th>
+
+            </tr>
+
+            <tr>  
+
+              <td>
+                <input type="password" id="password" name="password" placeholder="Password" />
+              </td>
+
+            </tr>
+
+          </table>
+
+          <input type="submit" value="Login" />
+
+    </form>
+    <button id="signUp">Sign Up</button>
+
+    <div id="footer">
+      This app is Open Source, meaning you can look at the source code, It's available <a target="_blank" href="https://github.com/EverlessDrop41/EverlesslyChatting">here</a>.
+    </div>
+    <!--Myscript-->
+    <script src="login.js"></script>
+  </body>
+</html>
